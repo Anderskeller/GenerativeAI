@@ -15,18 +15,31 @@ h1 {
     text-align: center;
     color: white;
     padding-top: 20px;
+
 }
-form {
+label {
+    display: block;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+#user-container {
     position: absolute;
-    top: 30%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 40px;
     border-radius: 10px;
     text-align: center;
+
 }
 
-section {
+#story {
+    width: 200px
+}
+
+#destination-container {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -34,4 +47,28 @@ section {
     padding: 40px;
     border-radius: 10px;
     text-align: center;
+}
+
+#travel-result {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    display: block;
+    /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+h2 {
+    color: white;
+}
+
+#reset {
+    margin-top: 20px;
+    width: 150px;
+    height: 25px;
 }
